@@ -4,7 +4,7 @@ import { PropsWithChildren } from './component.js';
 import type { LeafletContextInterface } from './context.js';
 import { LeafletElement } from './element.js';
 import { LayerProps } from './layer.js';
-import { DivOverlay, type DivOverlayLifecycleHook } from './div-overlay.js';
+import { DivOverlay, DivOverlayLifecycleHook } from './div-overlay.js';
 import { PathProps } from './path.js';
 interface LayerWithChildrenProps extends LayerProps, PropsWithChildren {
 }
